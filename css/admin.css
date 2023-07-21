@@ -1,0 +1,360 @@
+/* 
+    Author: Benson Ouma;
+    Theme: Online Food Ordering System;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    min-height: 30vh;
+    margin: 0 auto;
+}
+
+.wrapper2{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.width-full{
+    width: 100%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #420d12;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+table tr{
+    text-align: left;
+}
+
+.w-1{
+    width: 130px;
+}
+
+.w-2{
+    width: 50px;
+}
+
+.w-3{
+    width: 230px;
+}
+
+.btn{
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: white;
+}
+
+.error{
+    color: #ff4757;
+}
+
+.error2{
+    color: #1e90ff;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* CSS for main-content */
+.main-content{
+    background-color: #f1f2f6;
+    padding-bottom: 3%;
+}
+
+.main-content2{
+    background-color: #f1f2f6;
+}
+
+.col-4{
+    width: 18%;
+    background-color: #caccce;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/* CSS for Footer */
+.footer{
+    background-color: #2f3542;
+    color: white;
+}
+
+/* CSS for Login */
+.login {
+    background: url('../images/burger.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 94vh;
+  }
+
+  .forms {
+    background: url('../images/burger.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .myform {
+    width: 700px;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    color: black;
+    background-color: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+  }
+  
+  .myform h1 {
+    letter-spacing: 2px;
+  }
+  
+  .input {
+    padding: 3px 10px;
+    height: 40px;
+    width: 280px;
+    border-radius: 80px;
+    background-color: white;
+    outline: none;
+    color: black;
+  }
+  
+  .input3 {
+    padding: 10px 20px;
+    height: 80px;
+    width: 280px;
+    border-radius: 20px;
+    background-color: white;
+    outline: none;
+    color: black;
+    resize: none;
+  }
+  
+  .btnn{
+      position: relative;
+      display: inline-block;
+      border-radius: 80px;
+      padding: 15px 30px;
+      width: fit-content;
+      border: 2px solid transparent;
+      letter-spacing: 2px;
+      transition: 0.3s ease-in-out;
+      background-color: #1e90ff;
+  }
+  
+  .btnn:hover{
+    background-color: #3742fa;
+  }
+  
+  .btnn span{
+      position: relative;
+      z-index: 100;/*MAKES THE TEXT POP OUT INFRONT OF OTHER ELEMENTS*/
+  }
+  
+  .btnn:hover span{
+      transition-delay: 0.3s;
+      color: black;
+  }
+
+
+  /* CSS for Mobile Size or Smaller Screen */
+  
+  @media only screen and (max-width:768px){
+      .logo{
+          width: 70%;
+          float: none;
+          margin: 1% auto;
+      }
+  
+      .menu ul{
+          text-align: center;
+      }
+  
+      .food-search input[type="search"]{
+          width: 90%;
+          padding: 2%;
+          margin-bottom: 3%;
+      }
+  
+      .btnn{
+          width: 50%;
+          padding: 2%;
+      }
+  
+      .btn{
+          width: 91%;
+          padding: 2%;
+      }
+  
+      .food-search{
+          padding: 10% 0;
+      }
+
+      h2{
+          margin-bottom: 10%;
+      }
+  
+      .input{
+          width: 86%;
+      }
+
+      .wrapper{
+          overflow-x: scroll;
+      }
+      
+      .wrapper2{
+          overflow-x: scroll;
+      }
+
+      .col-4{
+        width: 80%;
+        float: bottom;
+        margin: 5% 1%;
+        padding: 5%;
+      }
+  }
