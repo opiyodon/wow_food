@@ -21,7 +21,7 @@
         <section class="footer">
             <div class="container text-center">
                 <p>2023 All rights reserved, Wow Food. Developed By - 
-                    <a href="https://opiyodon.netlify.app">
+                    <a href="http://opiyodon.netlify.app/" target="_blank">
                         Artkins
                     </a>
                 </p>
