@@ -20,7 +20,11 @@
         <!-- footer Section Starts Here -->
         <section class="footer">
             <div class="container text-center">
-                <p>2023 All rights reserved, Wow Food. Developed By - <a href="#"> Benson Ouma</a></p>
+                <p>2023 All rights reserved, Wow Food. Developed By - 
+                    <a href="https://opiyodon.netlify.app">
+                        Artkins
+                    </a>
+                </p>
             </div>
         </section>
         <!-- footer Section Ends Here -->

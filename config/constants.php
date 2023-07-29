@@ -13,8 +13,8 @@ ini_set('display_errors', 1);
     define('SITEURL', 'http://localhost/wow_food/');
     define('ADMINURL', 'http://localhost/wow_food/admin/');
     define('LOCALHOST', 'localhost');
-    define('DB_USERNAME', 'root');
-    define('DB_PASSWORD', '');
+    define('DB_USERNAME', 'BENSON');
+    define('DB_PASSWORD', 'Oumabenson254');
     define('DB_NAME', 'wowFood');
     
     
